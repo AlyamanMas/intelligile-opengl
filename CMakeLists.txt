@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.10)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 
-project(intelligile-opengl)
+SET_PROPERTY(GLOBAL PROPERTY CXX_STANDARD 17)
 
-add_executable(main src/main.cpp)
+PROJECT(intelligile-opengl)
+
+ADD_EXECUTABLE(main src/main.cpp)
